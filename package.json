@@ -1,0 +1,26 @@
+{
+  "name": "adblock-bypass-backend",
+  "version": "0.0.1",
+  "description": "This is the backend module for the adbock-bypass.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository" : { 
+	   "type" : "git",
+	   "url" : "https://github.com/enriquesomolinos/adblock-bypass-backend.git"
+  },
+  "author": "",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "colors": "^1.0.3",
+    "halson": "^2.3.1",
+    "mongoose": "^4.4.12",
+    "mongoose-json-select": "^0.2.1",
+    "restify": "^2.8.5",
+    "swagger-node-restify": "^0.1.2",
+    "tv4": "^1.1.9",
+    "tv4-formats": "^1.0.0",
+    "underscore": "^1.7.0"
+  }
+}
